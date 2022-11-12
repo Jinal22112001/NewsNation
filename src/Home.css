@@ -1,0 +1,102 @@
+.Home_NewsContent {
+	padding-top: 3rem;
+}
+
+.ScrollToTop {
+	position: fixed;
+	right: 1.5rem;
+	bottom: 2rem;
+	font-size: 3rem;
+	width: 2rem;
+	height: 2rem;
+}
+.popUp_AboutMe {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.popUp_AboutMe > h1 {
+	text-align: center;
+	color: #b3acac;
+	font-size: 1.8rem;
+	margin-top: 0.2rem;
+	transition: all 0.3s;
+}
+.popUp_AboutMe > h1:hover {
+	color: white;
+}
+
+.popUp_message {
+	width: 40vw;
+	height: 6rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.popUp_message > p {
+	color: blanchedalmond;
+	font-size: 1rem;
+}
+.popUp_socialBTN {
+	height: 4rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.popUp_socialBTN > a {
+	padding: 0.7rem 1.7rem;
+	margin: 0.5rem;
+	background-color: #f1f1f1;
+	color: #222831;
+	text-decoration: none;
+	transition: all 0.3s;
+}
+.popUp_socialBTN > a:hover {
+	background-color: #6c6e6f;
+}
+.popUp_Close {
+	width: 50vw;
+	height: 4rem;
+	display: flex;
+	align-items: center;
+}
+.popUp_Close > button {
+	padding: 0.8rem 2rem;
+	font-size: 1rem;
+	background-color: rgb(95, 95, 220);
+	border: none;
+	transition: all 0.3s;
+	margin-left: 1rem;
+}
+.popUp_Close > button:hover {
+	background-color: rgb(58, 58, 186);
+}
+
+@media screen and (max-width: 900px) {
+	.ScrollToTop {
+		width: 2.5rem;
+		height: 2.5rem;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.popUp_message {
+		width: 80vw;
+		height: 7rem;
+	}
+	.popUp_socialBTN {
+		height: 4rem;
+	}
+	.popUp_socialBTN > a {
+		padding: 0.6rem 0.8rem;
+		margin: 0.25rem;
+	}
+	.popUp_Close {
+		width: 90vw;
+	}
+	.popUp_Close > button {
+		padding: 0.8rem 1.8rem;
+		margin-left: 1rem;
+	}
+}

@@ -1,0 +1,9 @@
+.SearchSomethingDiv {
+	padding-top: 3rem;
+	height: 5rem;
+}
+@media screen and (max-width: 500px) {
+	.SearchSomethingDiv {
+		height: 3.5rem;
+	}
+}

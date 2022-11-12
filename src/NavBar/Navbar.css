@@ -1,0 +1,23 @@
+.menu_icon {
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+.logo {
+	height: 2.7rem;
+}
+
+.Nav_Container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 3rem;
+	max-height: 3rem;
+	background-color: #f1f1f1;
+	box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.22);
+	-webkit-box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.22);
+	-moz-box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.22);
+	position: fixed;
+	z-index: 99;
+}
